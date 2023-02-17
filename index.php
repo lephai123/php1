@@ -3,7 +3,7 @@ session_start();
 include_once "models/pdo.php";
 include_once 'views/header.php';
 include_once 'models/user.php';
-$helo = '12';
+
 $products = loadAll('products');
 
 $ctr = $_GET['ctr'] ?? '';
